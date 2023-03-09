@@ -24,9 +24,9 @@ padding: 80px;
 
 .hero button{
     background-color: #DB7A4E;
-    border-radius: 22px;
+    border-radius: 1.375rem;
     width: 150px;
-    padding: 10px;
+    padding: .625rem;
     color: white;
     border-color: rgba(0, 0, 0, 0);
 }
@@ -84,40 +84,35 @@ padding: 80px;
     box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.2);
 }
 
+.recommendations__card {
+    text-decoration: none;
+    color: white;
+    align-items: flex-end;
+}
+
 .recommendations__card:hover {
     opacity: 0.7;
     border-color: #DB7A4E;
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.4);
 }
 
-.recommendations__card--hawaii {
+.recommendations__image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 400px;
+}
+
+.recommendations__image--hawaii {
     background-image: url('/assets/Images/hawaii.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    height: 400px;
 }
 
-.recommendations__card a {
-    text-decoration: none;
-    color: white;
-    align-items: flex-end;
-}
-
-.recommendations__card--iceland {
+.recommendations__image--iceland {
     background-image: url('/assets/Images/iceland.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    height: 400px;
 }
 
-.recommendations__card--greece {
+.recommendations__image--greece {
     background-image: url('/assets/Images/greece.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    height: 400px;
 }
 
 
