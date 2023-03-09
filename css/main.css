@@ -1,0 +1,123 @@
+
+
+
+
+/* hero section begins */
+
+.hero {
+background-color: #FEFAF5;
+color: #335576;
+text-align: left;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 80px;
+}
+
+.hero__text {
+    width: 400px;
+}
+
+.hero p{
+    padding: 20px 0;
+}
+
+.hero button{
+    background-color: #DB7A4E;
+    border-radius: 22px;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.hero button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+.hero__image {
+    width: 400px;
+}
+
+/* recommendations section begins */
+
+.recommendations {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.recommendations__title {
+    color: #335576;
+    width: 100%;
+    margin:2% 0;
+    padding-left: 10%;
+}
+
+.recommendations__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.recommendations__container h3{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    position: relative;
+    top: 21.875rem;
+    padding-right: .625rem;
+}
+
+.recommendations__card {
+    margin: 0 1.25rem 5rem 1.25rem;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 280px;
+    border-radius: .3125rem;
+    border: .0625rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.2);
+}
+
+.recommendations__card:hover {
+    opacity: 0.7;
+    border-color: #DB7A4E;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.4);
+}
+
+.recommendations__card--hawaii {
+    background-image: url('/assets/Images/hawaii.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 400px;
+}
+
+.recommendations__card a {
+    text-decoration: none;
+    color: white;
+    align-items: flex-end;
+}
+
+.recommendations__card--iceland {
+    background-image: url('/assets/Images/iceland.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 400px;
+}
+
+.recommendations__card--greece {
+    background-image: url('/assets/Images/greece.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 400px;
+}
+
+
