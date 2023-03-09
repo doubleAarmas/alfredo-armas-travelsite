@@ -1,27 +1,25 @@
-.itinarary__body--Hawaii h1{
+.itinarary__body--hawaii h1{
 color: white;
-font-size: 90px;
+font-size: 5.625rem;
 justify-content: flex-start;
-padding: 130px 0 0 100px;
+padding: 8.125rem 0 0 6.25rem;
 }
 
 .itinarary__body--greece h1{
     color: white;
-    font-size: 90px;
+    font-size: 5.625rem;
     justify-content: flex-start;
-    padding: 130px 0 0 100px;
+    padding: 8.125rem 0 0 6.25rem;
     }
 
-
-    .itinarary__body--iceland h1{
+.itinarary__body--iceland h1{
         color: white;
-        font-size: 90px;
+        font-size: 5.625rem;
         justify-content: flex-start;
-        padding: 130px 0 0 100px;
+        padding: 8.125rem 0 0 6.25rem;
         }
-/* itinarary section begins */
 /* actual background of the main hero section */
-.itinarary__body--Hawaii {
+.itinarary__body--hawaii {
     background-image: url('/assets/Images/hawaii.jpg');
     background-size: cover;
     background-repeat: no-repeat;

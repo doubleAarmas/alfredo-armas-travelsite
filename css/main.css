@@ -11,20 +11,26 @@ text-align: left;
 display: flex;
 justify-content: space-around;
 align-items: center;
-padding: 80px;
+padding: 5rem;
+}
+
+.hero__text--container {
+    width: 50vw;
+    height: 25vh;
+}
+
+.hero__title {
+    font-size: 2.7em;
+    text-transform: capitalize;
 }
 
 .hero__text {
-    width: 400px;
-}
-
-.hero p{
-    padding: 20px 0;
+    padding: 1.25rem 0;
 }
 
 .hero button{
     background-color: #DB7A4E;
-    border-radius: 1.375rem;
+    border-radius: 22px;
     width: 150px;
     padding: .625rem;
     color: white;
@@ -38,7 +44,9 @@ padding: 80px;
 }
 
 .hero__image {
-    width: 400px;
+    width: 35vw;
+    height: 55vh;
+    padding-top: 40px;
 }
 
 /* recommendations section begins */
@@ -78,10 +86,10 @@ padding: 80px;
     margin: 0 1.25rem 5rem 1.25rem;
     background-repeat: no-repeat;
     overflow: hidden;
-    width: 280px;
-    border-radius: .3125rem;
-    border: .0625rem solid rgba(0, 0, 0, 0.2);
-    box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.2);
+    width: 40vw;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .recommendations__card {
@@ -93,14 +101,14 @@ padding: 80px;
 .recommendations__card:hover {
     opacity: 0.7;
     border-color: #DB7A4E;
-    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4);
 }
 
 .recommendations__image {
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
-    height: 400px;
+    height: 55vh;
 }
 
 .recommendations__image--hawaii {
