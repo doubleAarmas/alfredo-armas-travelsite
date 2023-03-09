@@ -9,12 +9,16 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #DB7A4E;
+    transition: 0.2s;
+    text-decoration: underline;
+}
+
 li {
     list-style: none;
 }
 
-
- /* navbar begins */
 nav {
     background-color: #FFFFFF;
     display: flex;
@@ -24,7 +28,7 @@ nav {
     position: fixed;
 }
 
-nav ul {
+.navbar__links-container {
     display: flex;
 }
 
@@ -43,18 +47,7 @@ nav li {
     text-decoration-thickness: 3px;
     text-underline-offset: .625rem;
 }
-nav a:hover {
-    color: #DB7A4E;
-    transition: 0.2s;
-    text-decoration: underline;
-}
 
-
-
-
-
-
-/* required footer colors */
 
 footer {
     background-color: #FEFAF5;
@@ -95,16 +88,6 @@ footer h2{
     padding-top: 1.5625rem;
 }
 
-/* .footer__closing-sections-icons a {
-    height: 1.25rem;
-    width: 1.25rem;
-    margin: 0 2.1875rem 0 0;
-} */
-
 .social__media-icons:hover {
     opacity: 0.7;
 }
-
-/* .footer__closing-sections {
-    padding: 1.25rem;
-} */
