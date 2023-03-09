@@ -19,6 +19,13 @@ li {
     list-style: none;
 }
 
+#active {
+    text-decoration-line: underline;
+    text-decoration-color: #DB7A4E;
+    text-decoration-thickness: 3px;
+    text-underline-offset: .625rem;
+}
+
 nav {
     background-color: #FFFFFF;
     display: flex;
@@ -32,7 +39,7 @@ nav {
     display: flex;
 }
 
-nav li {
+.navbar__links {
     padding: 0 .625rem;
 }
 
@@ -41,20 +48,12 @@ nav li {
     font-weight: 700;
 }
 
-#active {
-    text-decoration-line: underline;
-    text-decoration-color: #DB7A4E;
-    text-decoration-thickness: 3px;
-    text-underline-offset: .625rem;
-}
-
-
 footer {
     background-color: #FEFAF5;
     color: #335576;
 }
 
-footer h2{
+.footer__title{
     padding: .9375rem 0;
 }
 
@@ -78,7 +77,6 @@ footer h2{
 
 .footer__closing-icons {
     display: flex;
-    
 }
 
 .footer__links {
