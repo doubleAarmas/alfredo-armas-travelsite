@@ -5,7 +5,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-a {
+.link__formatting {
     text-decoration: none;
 }
 
@@ -15,7 +15,7 @@ a:hover {
     text-decoration: underline;
 }
 
-li {
+.list__formatting {
     list-style: none;
 }
 
