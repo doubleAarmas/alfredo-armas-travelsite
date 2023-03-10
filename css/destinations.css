@@ -1,23 +1,9 @@
-.itinarary__body--hawaii h1{
-color: white;
-font-size: 5.625rem;
-justify-content: flex-start;
-padding: 8.125rem 0 0 6.25rem;
-}
-
-.itinarary__body--greece h1{
+.itinarary__body{
     color: white;
     font-size: 5.625rem;
     justify-content: flex-start;
     padding: 8.125rem 0 0 6.25rem;
-    }
-
-.itinarary__body--iceland h1{
-        color: white;
-        font-size: 5.625rem;
-        justify-content: flex-start;
-        padding: 8.125rem 0 0 6.25rem;
-        }
+}
 /* actual background of the main hero section */
 .itinarary__body--hawaii {
     background-image: url('/assets/Images/hawaii.jpg');
@@ -25,10 +11,9 @@ padding: 8.125rem 0 0 6.25rem;
     background-repeat: no-repeat;
     background-position:0 50%;
     overflow: hidden;
-    height: 800px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    
 }
 
 .itinarary__body--greece {
@@ -37,10 +22,9 @@ padding: 8.125rem 0 0 6.25rem;
     background-repeat: no-repeat;
     background-position:0 50%;
     overflow: hidden;
-    height: 800px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    
 }
 
 .itinarary__body--iceland {
@@ -49,10 +33,9 @@ padding: 8.125rem 0 0 6.25rem;
     background-repeat: no-repeat;
     background-position:0 50%;
     overflow: hidden;
-    height: 800px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    
 }
 
 .itinarary__container {
@@ -69,21 +52,19 @@ padding: 8.125rem 0 0 6.25rem;
     margin-top: 10%;
     margin-left: 25%;
     background-color: white;
-    width: 30vh;
+    width: 40vh;
     border-radius: 5px;
 }
-
 /* inside design of the itinarary card */
 .itinarary__schedule {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 800px;
+    width: 40vw;
     text-align: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
-
 /* only the actual border */
 .itinarary__schedule__weekday--border {
     border-bottom: 2px solid black;
@@ -95,12 +76,11 @@ padding: 8.125rem 0 0 6.25rem;
     width: 100%;
     margin: 0 -0.625rem;
 }
-
 /* actual background of each activity */
 .itinarary__schedule li {
     max-width: 90%;
     background-color: #FEFAF5;
     margin: 10%;
-padding: 5%;
+    padding: 5%;
 }
 

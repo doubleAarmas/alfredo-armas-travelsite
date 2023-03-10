@@ -1,17 +1,11 @@
-
-
-
-
-/* hero section begins */
-
 .hero {
-background-color: #FEFAF5;
-color: #335576;
-text-align: left;
-display: flex;
-justify-content: space-around;
-align-items: center;
-padding: 5rem;
+    background-color: #FEFAF5;
+    color: #335576;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem;
 }
 
 .hero__text--container {
@@ -48,9 +42,7 @@ padding: 5rem;
     height: 55vh;
     padding-top: 40px;
 }
-
 /* recommendations section begins */
-
 .recommendations {
     display: flex;
     flex-direction: column;
@@ -122,5 +114,3 @@ padding: 5rem;
 .recommendations__image--greece {
     background-image: url('/assets/Images/greece.jpg');
 }
-
-
